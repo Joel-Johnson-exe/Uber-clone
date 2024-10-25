@@ -1,0 +1,462 @@
+@font-face {
+    font-family: "Book1";
+    src: url("/font/UberMove-Bold.woff2");
+  }
+@font-face {
+    font-family: "Book2";
+    src: url("/font/UberMove-Regular.woff2");
+  }
+@font-face {
+    font-family: "Book3";
+    src: url("/font/UberMoveText-Medium.woff2");
+  }
+@font-face {
+    font-family: "Book4";
+    src: url("/font/UberMoveText-Regular.woff2");
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+/* ****************************************************** */
+.first_page{
+    width: 100vw;
+    /* height: 100vh; */
+    background-color: black;
+    color: white;
+}
+.navbar{
+    /* border: 2px solid white; */
+    display: flex;
+    margin-bottom: 77px;
+}
+.subnav1{
+    /* border: 2px solid white;     */
+    margin-left: 120px;
+}
+.subnav1 ul{
+    display: flex;
+    list-style: none;
+    font-family: Book3;
+}
+.subnav1 ul li{
+    padding-right: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    padding-right: 28px;
+    margin-top: 22px;
+}
+#CName{
+    font-family: Book2;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 18px;
+    padding-right: 36px;
+}
+.subnav2{
+    /* border: 2px solid white;     */
+    margin-left: 620px;
+}
+.subnav2 ul{
+    display: flex;
+    list-style: none;
+    font-family: Book3;
+}
+.subnav2 ul li{
+    padding-right: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 18px;
+    margin-top: 22px;
+}
+.nav_sign{
+    font-family: Book3;
+    font-size: 14px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius:23px;
+    padding: 8px 11px;
+    margin-top: 14px;
+    margin-left: 5px;
+}
+.ride{
+    display: flex;
+    margin-bottom: 60px;
+}
+.ride_form{
+    width: 50vw;
+}
+.form_spacing{
+    margin-top: 140px;
+    margin-left: 188px;
+    width: 500px;
+}
+.form_spacing h1{
+    font-family: Book1;
+    font-size: 52px;
+    font-weight: 700;
+}
+.form_spacing p{
+    margin-top: 30px;
+    font-family: Book4;
+    font-size: 16px;
+    margin-bottom: 20px;
+    
+}
+.input{
+    background-color: white;
+    width: 365px;
+    border-radius: 9px;
+    padding: 13px 15px 15px 15px;
+}
+.input input{
+    font-family: Book4;
+    font-size: 16px;
+    border: none;
+    outline: none;
+}
+.input i{
+    margin-left: 130px;
+    font-size: 19px;
+}
+.line{
+    min-height: 13px;
+    border-left: 1px solid white;
+    margin-left: 19px;
+}
+.form_spacing button{
+    background-color: white;
+    font-family: Book3;
+    font-size: 16px;
+    padding: 13px 22px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.ride_img{
+    width: 50vw;
+}
+.ride_img img{
+    width: 560px;
+}
+
+.second_page{
+    width: 100vw;
+    background-color: white;
+    color: black;
+}
+.services{  
+    margin-left: 188px;
+    width: 1200px;
+    margin-top: 65px;
+}
+.services h3{
+    font-family: Book1;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+.cards{
+    display: flex;
+}
+.card{
+    background-color: rgba(202, 200, 200, 0.323);
+    width: 365px;
+    margin-right: 18px;
+    border-radius: 8px;
+    height: 165px;
+    display: flex;
+}
+.details{
+    padding: 15px;
+    width: 50%;
+}
+.details h4{
+    font-family: Book3;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.details p{
+    font-family: Book4;
+    font-weight: 100;
+    font-size: 11px;
+    line-height: 20px;
+}
+.details button{
+    margin-top: 10px;
+    font-family: Book3;
+    font-size: 15px;
+    background-color: white;
+    padding: 7px 10px;
+    border: 1px solid white;
+    border-radius: 15px;
+}
+.image{
+    
+    padding-top: 20px;
+}
+/* ****************************************************** */
+.third_page{
+    width: 100vw;
+    margin-top: 150px;
+    display: flex;
+}
+.drive_img{
+    margin-left: 188px;
+}
+.drive{
+    width: 420px;
+    margin-left: 130px;
+}
+.drive h1{
+    font-family: Book1;
+    font-size: 52px;
+    font-weight: 700;
+    margin-top: 90px;
+}
+.drive p{
+    margin-top: 30px;
+    font-family: Book4;
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+.drive button{
+    font-family: Book3;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    border: 1 px solid black;
+    padding: 13px 22px;
+    border-radius: 8px;
+    margin-right: 25px;
+}
+.drive span{
+    font-family: Book4;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.204);
+    padding-bottom: 4px;
+}
+/* ****************************************************** */
+.fourth_page{
+    width: 100vw;
+    margin-top: 150px;
+    display: flex;
+}
+.business{
+    width: 420px;
+    margin-left: 188px;
+}
+.business h1{
+    font-family: Book1;
+    font-size: 52px;
+    font-weight: 700;
+    margin-top: 90px;
+}
+.business p{
+    margin-top: 30px;
+    font-family: Book4;
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+.business button{
+    font-family: Book3;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    border: 1 px solid black;
+    padding: 13px 22px;
+    border-radius: 8px;
+    margin-right: 25px;
+}
+.business span{
+    font-family: Book4;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.204);
+    padding-bottom: 4px;
+}
+.business_img{
+    margin-left: 180px;
+}
+/* ****************************************************** */
+.fifth_page{
+    width: 100vw;
+    margin-top: 150px;
+    display: flex;
+    margin-bottom: 60px;
+}
+.management_img{
+    margin-left: 188px;
+}
+.management{
+    width: 450px;
+    margin-left: 130px;
+}
+.management h1{
+    font-family: Book1;
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 150px;
+}
+.management p{
+    margin-top: 30px;
+    font-family: Book4;
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+.management button{
+    font-family: Book3;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    border: 1 px solid black;
+    padding: 13px 22px;
+    border-radius: 8px;
+    margin-right: 25px;
+}
+/* ****************************************************** */
+.sixth_page{
+    background-color: rgba(207, 207, 207, 0.237);
+    padding-bottom: 70px;
+}
+.sixth_page h1{
+    font-family: Book1;
+    font-size: 35px;
+    margin-left: 184px;
+    margin-top: 65px;
+    margin-bottom: 40px;
+}
+.download{
+    display: flex;
+}
+.download_uber{
+    display: flex;
+    background-color: white;
+    padding: 25px;
+    margin-left: 188px;
+    width: 526px;
+}
+.uber_text{
+    margin-left: 25px;
+}
+.download_uber .uber_text h2{
+    font-family: Book1;
+    margin-top: 55px;
+    margin-bottom: 4px;
+}
+.download_uber .uber_text p{
+    font-family: Book4;
+}
+.arrow{
+    margin-top: 83px;
+}
+.arrow i{
+    font-size: 18px;
+}
+.download_driver{
+    display: flex;
+    background-color: white;
+    padding: 25px;
+    margin-left: 37px;
+    width: 526px;
+}
+.download_driver .driver_text h2{
+    font-family: Book1;
+    margin-top: 55px;
+    margin-bottom: 4px;
+}
+.download_driver .driver_text p{
+    font-family: Book4;
+}
+/* ****************************************************** */
+.last_page{
+    background-color: black;
+    width: 100vw;
+    color: white;
+}
+.p1{
+    margin-top: 45px;
+    font-family: Book4;
+    font-size: 14px;
+    margin-left: 1050px;
+}
+.p2{
+    margin-top: 20px;
+    font-family: Book4;
+    font-size: 14px;
+    margin-left: 1215px;
+}
+.last_page h2{
+    font-family: Book2;
+    margin-left: 185px;
+    font-weight: 100;
+}
+.last_page h3{
+    margin-top: 40px;
+    font-family: Book4;
+    font-weight: 100;
+    font-size: 16px;
+    margin-left: 185px;
+    margin-bottom: 90px;
+}
+.links{
+    display: flex;
+}
+.links ul{
+    margin-left: 188px;
+}
+.links ul .item{
+    margin-bottom: 20px;
+    font-family: Book4;
+    font-size: 13px;
+}
+.heading{
+    font-family: Book2;
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.social_media{
+    margin-left: 188px;
+    margin-top: 90px;
+    display: flex;
+}
+.social_media ul{
+    display: flex;
+    list-style: none;
+}
+.social_media ul li{
+    margin-right: 100px;
+}
+.info{
+    margin-left: 400px;
+    display: flex;
+}
+.eng{
+    font-family: Book3;
+    font-size: 14px;
+}
+.store{
+    display: flex;
+    margin-top: 60px;
+    margin-left: 188px;
+}
+.app_store{
+    padding-right: 10px;
+}
+.last{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 70px;
+    font-family: Book4;
+    color: rgba(255, 255, 255, 0.816);
+    font-size: 11px;
+    margin-left: 188px;
+}
+.last .d1{
+    margin-left: 780px;
+}
+.last .d2{
+    margin-left: 20px;
+}
+.last .d3{
+    margin-left: 20px;
+}
