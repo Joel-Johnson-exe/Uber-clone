@@ -1,18 +1,18 @@
 @font-face {
     font-family: "Book1";
-    src: url("/font/UberMove-Bold.woff2");
+    src: url("font/UberMove-Bold.woff2");
   }
 @font-face {
     font-family: "Book2";
-    src: url("/font/UberMove-Regular.woff2");
+    src: url("font/UberMove-Regular.woff2");
   }
 @font-face {
     font-family: "Book3";
-    src: url("/font/UberMoveText-Medium.woff2");
+    src: url("font/UberMoveText-Medium.woff2");
   }
 @font-face {
     font-family: "Book4";
-    src: url("/font/UberMoveText-Regular.woff2");
+    src: url("font/UberMoveText-Regular.woff2");
   }
 
 *{
