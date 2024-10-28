@@ -49,7 +49,7 @@
     margin-top: 22px;
 }
 #CName{
-    font-family: "Book2";
+    font-family: Book2;
     font-size: 24px;
     font-weight: 400;
     margin-top: 18px;
@@ -118,7 +118,7 @@
     outline: none;
 }
 .input i{
-    margin-left: 130px;
+    margin-left: 120px;
     font-size: 19px;
 }
 .line{
